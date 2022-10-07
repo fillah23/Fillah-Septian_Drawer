@@ -20,7 +20,8 @@ class _DrawwerscreenState extends State<Drawerscreen> {
         child: ListView(children: <Widget>[
       UserAccountsDrawerHeader(
         accountName: Text("Fillah Septian"),
-        currentAccountPicture: CircleAvatar(backgroundImage: AssetImage("")),
+        currentAccountPicture:
+            CircleAvatar(backgroundImage: AssetImage("assets/img/profil.png")),
         accountEmail: Text("fillah@gmail.com"),
       ),
       DrawerListTile(
